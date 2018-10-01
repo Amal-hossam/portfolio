@@ -97,18 +97,18 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 900px;
+    height: 800px;
     width: 100%
 }
 
 .data {
     background-image: linear-gradient(-225deg, rgb(71, 59, 123, .7) 1%, rgb(46, 40, 42, .7) 51%, rgb(97, 48, 93, .7) 100%);
-    min-height: 900px;
+    min-height: 800px;
     bottom: 0
 }
 
 .header-info .data-info {
-    padding: 17% 0 13%
+    padding: 17% 0 6%
 }
 
 .header-info .info-1 {
@@ -883,7 +883,7 @@ select[multiple].input-lg {
         font-size: 15px
     }
     .header-info .info-1-2 {
-        font-size: 40px;
+        font-size: 35px;
         margin: -6px 0
     }
     /*** start about me**/
