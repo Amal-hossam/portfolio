@@ -97,18 +97,18 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 800px;
+    height: 900px;
     width: 100%
 }
 
 .data {
     background-image: linear-gradient(-225deg, rgb(71, 59, 123, .7) 1%, rgb(46, 40, 42, .7) 51%, rgb(97, 48, 93, .7) 100%);
-    min-height: 800px;
+    min-height: 900px;
     bottom: 0
 }
 
 .header-info .data-info {
-    padding: 15% 0 12%
+    padding: 17% 0 13%
 }
 
 .header-info .info-1 {
@@ -876,7 +876,8 @@ select[multiple].input-lg {
     }
     /*** start header**/
     .header-info .data-info {
-        padding-top: 55%
+ padding-top: 50%;
+        padding-bottom: 20%  
     }
     .header-info .info-1-1 {
         font-size: 15px
