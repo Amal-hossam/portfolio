@@ -97,13 +97,13 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 800px;
+    height: 850px;
     width: 100%
 }
 
 .data {
     background-image: linear-gradient(-225deg, rgb(71, 59, 123, .7) 1%, rgb(46, 40, 42, .7) 51%, rgb(97, 48, 93, .7) 100%);
-    min-height: 800px;
+    min-height: 850px;
     bottom: 0
 }
 
@@ -877,7 +877,7 @@ select[multiple].input-lg {
     }
     /*** start header**/
     .header-info .data-info {
-        padding-top: 50%;
+        padding-top: 40%;
         padding-bottom: 20%
     }
     .header-info .info-1-1 {
@@ -897,6 +897,19 @@ select[multiple].input-lg {
     #sec-servi .box-content {
         margin-top: 50px
     }
+    .my-imge {
+        width: 230px;
+        background-color: #61305d;
+        background-image: url(../images/pattern.png);
+        padding: 0px 0 15px 15px;
+    }
+
+    .about-me img {
+        width: 240px;
+        margin-top: -20px;
+    }
+
+
     /****start portofolio****/
     .blog3-sec:hover .blog3-img button {
         margin-top: 20%
