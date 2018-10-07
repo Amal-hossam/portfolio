@@ -8,6 +8,7 @@ $(document).ready(function () {
         interval: 2500
     });
     //navbar
+
     var scroll_start = 0;
     var startChange = $('.header-info');
     var offset = startChange.offset();
@@ -22,6 +23,10 @@ $(document).ready(function () {
             }
         });
     }
+    // closed collapse when selected item
+    $('.navbar-collapse').click('li', function () {
+        $('.navbar-collapse').collapse('hide');
+    });
 
     //js typed
     if ($('.element').length) {
@@ -59,4 +64,5 @@ $(document).ready(function () {
     for (j = 0; j < countersQuantity; j++) {
         count(0, counter[j], j);
     }
+
 });
