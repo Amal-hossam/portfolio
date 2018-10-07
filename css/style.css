@@ -3,9 +3,24 @@
     font-family: 'Open Sans', sans-serif;
 
 
+
 }
 
+button:focus {
+    outline: none
+}
 
+::-moz-selection {
+    background: #61305d;
+    text-shadow: none;
+    color: #fff
+}
+
+::selection {
+    background: #61305d;
+    text-shadow: none;
+    color: #fff
+}
 
 #home-page {
     position:
@@ -39,6 +54,7 @@
     font-size: 18px;
     transition: all .5s ease-in-out
 }
+
 
 
 .navbar-brands {
@@ -156,7 +172,9 @@
 }
 
 .bn-1:hover,
-.bn-2:hover {
+.bn-2:hover,
+.bn-1:focus,
+.bn-2:focus {
     background-color: #2e282a;
     color: #fff;
     border-color: #2e282a
@@ -485,6 +503,12 @@ h5 {
     border: 0;
 }
 
+.blog3-column button:focus {
+    background-color: #2e282a;
+    border: 0;
+    outline: 0
+}
+
 
 .blog3-sec:hover .blog3-img img {
     transition: all 0.7s ease-in-out;
@@ -774,6 +798,12 @@ textarea {
     width: 90%
 }
 
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
 .section2 .sec2contactform input[type="submit"]:hover {
     background: #201e1e;
     color: #ddd
@@ -814,6 +844,27 @@ textarea {
     border-color: #663862;
 
 }
+
+.btn-danger:active:hover,
+.btn-danger.active:hover,
+.open > .dropdown-toggle.btn-danger:hover,
+.btn-danger:active:focus,
+.btn-danger.active:focus,
+.open > .dropdown-toggle.btn-danger:focus,
+.btn-danger:active.focus,
+.btn-danger.active.focus,
+.open > .dropdown-toggle.btn-danger.focus {
+    color: #fff;
+    background-color: #61305d;
+    border-color: #61305d;
+}
+
+.btn-danger:focus {
+    outline: none;
+    background-color: #61305d;
+    border-color: #61305d;
+}
+
 
 textarea.input-lg,
 select[multiple].input-lg {
@@ -875,6 +926,16 @@ select[multiple].input-lg {
     .navbar-default .navbar-form {
         border: none
     }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background: transparent
+    }
+
+    .navbar-default .navbar-collapse,
+    .navbar-default .navbar-form {
+        border: none;
+        background: ;
+    }
     /*** start header**/
     .header-info .data-info {
         padding-top: 40%;
@@ -884,7 +945,7 @@ select[multiple].input-lg {
         font-size: 15px
     }
     .header-info .info-1-2 {
-        font-size: 32px;
+        font-size: 30px;
         margin: -6px 0
     }
     .header-info .info-2 {
