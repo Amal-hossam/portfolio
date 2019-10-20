@@ -66,3 +66,30 @@ $(document).ready(function () {
     }
 
 });
+
+//scroll top
+$(window).scroll(function(){
+let scrollTop = $(window).scrollTop();
+if(scrollTop >1500){
+    $("#btnUp").fadeIn(500);
+}else{
+    $("#btnUp").fadeOut(500);
+}
+})
+$("#btnUp").click(function(){
+    $("body,html").animate({"scrollTop":0},1000);
+})
+
+/***smoth scroll on links on navs */
+$("nav a, .home-down").click(function(){
+    let aHref =$(this).attr("href");
+    let offsett=$(aHref).offset().top;
+    $("body, html").animate({scrollTop:offsett},1000);
+})
+
+/***loadingscreen */
+$(window).ready(function(){
+    $("#loadingS").fadeOut(2000,function(){
+        $("body").css("overflow","auto");
+    })
+})
