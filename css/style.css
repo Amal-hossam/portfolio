@@ -58,7 +58,8 @@ button:focus {
 
 
 .navbar-brands {
-    padding: 10px
+    padding: 10px;
+    
 }
 
 .navbar-brands span {
@@ -93,7 +94,7 @@ button:focus {
 
 .wave-shape-1 {
     position: absolute;
-    bottom: 0%
+    bottom: -6px
 }
 
 .wave-shape img {
@@ -595,7 +596,7 @@ h5 {
 }
 
 .photo {
-    background: url("../images/bbb.jpg") no-repeat center center fixed;
+    background: url("../images/6911c11b73d07bc00ac0ea67c3c21eaf.jpg") no-repeat center center fixed;
     background-size: cover;
 
     min-height: 250px;
@@ -787,7 +788,9 @@ input[type="text"],
 textarea {
     background-color: #201e1e;
     border: none;
-    outline-color: #61305d
+    outline-color: #61305d;
+    resize: none;
+    color:#fff
 }
 
 
@@ -795,7 +798,8 @@ textarea {
 .form-control {
     background-color: #201e1e;
     border: none;
-    width: 90%
+    width: 90%;
+    color:#fff
 }
 
 .form-control:focus {
@@ -1020,6 +1024,10 @@ select[multiple].input-lg {
     .section2 .sec2contactform input[type="submit"] {
         padding: 10px 30px;
         font-size: 14px;
+    }
+    .navbar-collapse {
+        background:#61305d;
+        
     }
 }
 
