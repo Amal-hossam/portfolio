@@ -3,10 +3,11 @@ $(document).ready(function () {
     //nice scroll
 
     $("Html").niceScroll();
-
+/*
     $(".carousel").carousel({
         interval: 2500
     });
+    */
     //navbar
 
     var scroll_start = 0;
