@@ -1,16 +1,13 @@
-/*
 $(document).ready(function () {
 
     //nice scroll
-/*
-    $("Html").niceScroll();
-/*
+
+    $("html,body").niceScroll();
+
     $(".carousel").carousel({
         interval: 2500
     });
-    */
-});
-*/
+    
     //navbar
 
     var scroll_start = 0;
@@ -82,7 +79,7 @@ $(document).ready(function () {
             }
           })
         })
-
+});
 
 //scroll top
 $(window).scroll(function(){
