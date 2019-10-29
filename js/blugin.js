@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     //nice scroll
-
+/*
     $("Html").niceScroll();
 /*
     $(".carousel").carousel({
