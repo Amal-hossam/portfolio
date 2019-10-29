@@ -79,7 +79,7 @@ $(document).ready(function () {
             }
           })
         })
-
+});
 
 //scroll top
 $(window).scroll(function(){
@@ -102,7 +102,8 @@ $("nav a, .home-down").click(function(){
 })
 
 /***loadingscreen */
+$(window).ready(function(){
     $("#loadingS").fadeOut(2000,function(){
         $("body").css("overflow","auto");
     })
-});
+})
