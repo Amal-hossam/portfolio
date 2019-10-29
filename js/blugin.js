@@ -1,3 +1,4 @@
+/*
 $(document).ready(function () {
 
     //nice scroll
@@ -8,6 +9,8 @@ $(document).ready(function () {
         interval: 2500
     });
     */
+});
+*/
     //navbar
 
     var scroll_start = 0;
@@ -79,7 +82,7 @@ $(document).ready(function () {
             }
           })
         })
-});
+
 
 //scroll top
 $(window).scroll(function(){
